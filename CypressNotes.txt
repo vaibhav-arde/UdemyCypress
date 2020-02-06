@@ -1,0 +1,12 @@
+Create a folder "UdemyCypress".
+
+To create package.json do : npm init
+Create .gitignore : An easy way to get a default git ignore without messing about with create/copy/paste is to use the curl command from the terminal. First cd into your projects root directory and then run the command by replacing MY_API_NAME with your API name from one of the following two sources:
+https://www.gitignore.io/
+curl -o .gitignore https://www.gitignore.io/api/MY_API_NAME
+
+https://github.com/github/gitignore
+curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/MY_API_NAME.gitignore
+
+Install Cypress by: npm install --save-dev cypress
+npx cypress open
