@@ -10,3 +10,8 @@ curl -o .gitignore https://raw.githubusercontent.com/github/gitignore/master/MY_
 
 Install Cypress by: npm install --save-dev cypress
 npx cypress open
+
+Upload to Github:
+git remote add origin https://github.com/vaibhav-arde/UdemyCypress.git
+git push -u origin master
+
