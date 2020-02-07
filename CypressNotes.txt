@@ -63,3 +63,7 @@ Alias are very special construct in Cypress which has many different application
 ---------------------------------------------
 10. Working with Alias for UI Operation
 (cypress/integration/testApp/va.10multiRowOfTable.js)
+---------------------------------------------
+11. Cypress wrap commands (cypress/integration/testApp/va.11wrap.js)
+Wrap yields the object passed into it: It will give actual object properties and members wrap in it
+---------------------------------------------
