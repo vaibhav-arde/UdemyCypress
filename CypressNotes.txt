@@ -21,3 +21,27 @@ cypress/integration/testApp/va.01login.js
 
 what is implicit and explicit asserssions?
 ==============================================
+Section 2: Getting Handle With Cypress
+
+5. Console based Test Runner:
+npx cypress run --spec /Users/vaibhavbarde/Desktop/Project/VaibhaV/UdemyCypress/cypress/integration/testApp/va.01login.js
+or
+npx cypress run --spec /Users/vaibhavbarde/Desktop/Project/VaibhaV/UdemyCypress/cypress/integration/testApp/va.01login.js --browser chrome
+---------------------------------------
+
+6. Interacting with UI elements with Cypress
+click({force:true})
+Type()
+Clear()
+Check()
+Select()
+---------------------------------------------
+7. Advance Cypress commands
+visit()
+get()
+wrap(later)
+parent
+find() : Get the descendent DOM elements of a specific selector, more like query behavior of JQuery
+filter() : Get the DOM element that match a specific selector
+each
+
