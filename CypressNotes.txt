@@ -67,3 +67,14 @@ Alias are very special construct in Cypress which has many different application
 11. Cypress wrap commands (cypress/integration/testApp/va.11wrap.js)
 Wrap yields the object passed into it: It will give actual object properties and members wrap in it
 ---------------------------------------------
+12. Implicit and Explicit Assertions: (cypress/integration/testApp/va.12assertions.js)
+Cypress bundles the popular Chai assertion liabrary, as well as helpful extensions for Sinon and JQuery bringing dozens of powerful assertions for free.
+
+There are two types of waiting mechannism available in Cypress.
+Implicit assertions - expect()
+Explicit assertions - should()
+
+Cypress has built-in retry-ability in almost every command and especially, the wait mechanism in assertions are really handy!
+
+http://www.executeautomation.com/site
+----------------------------------------------
