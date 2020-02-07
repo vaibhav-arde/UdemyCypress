@@ -61,4 +61,5 @@ Alias are very special construct in Cypress which has many different application
 3. Working with cy.fixtures()- DDT (Data Driven Testing), to read files
 4. Working with Routes for XHR and API testing
 ---------------------------------------------
-
+10. Working with Alias for UI Operation
+(cypress/integration/testApp/va.10multiRowOfTable.js)
