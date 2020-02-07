@@ -78,3 +78,9 @@ Cypress has built-in retry-ability in almost every command and especially, the w
 
 http://www.executeautomation.com/site
 ----------------------------------------------
+13. Cypress hooks
+beforeEach
+before
+afterEach
+after
+----------------------------------------------
