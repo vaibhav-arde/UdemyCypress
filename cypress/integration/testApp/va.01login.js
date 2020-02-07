@@ -6,6 +6,7 @@ describe("Perform Login to webapp", ()=>{
         cy.url().should("include", "/Account/Login");
         cy.get('#UserName').type("admin");
         cy.get('#Password').type("password");
+        // cy.get('p > a').click();
         cy.get('.btn').click();
         
     });

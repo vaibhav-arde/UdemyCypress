@@ -78,9 +78,29 @@ Cypress has built-in retry-ability in almost every command and especially, the w
 
 http://www.executeautomation.com/site
 ----------------------------------------------
-13. Cypress hooks
+13. Cypress hooks (cypress/integration/testApp/va.13hooks.js)
 beforeEach
 before
 afterEach
 after
+----------------------------------------------
+14.Data Driven Testing: (cypress/integration/testApp/va.14ddt.js)
+Fixture() and ReadFile()
+Fixture and ReadFile are two different methods available in Cypress to read or work with external files.
+They do have similar behaviour with minor differences but they work very well in reading the files of many types
+
+Cypress reads these file types, but uf you specify just the file name without extensions, it will read in these orders.
+    json
+    js
+    coffee
+    html
+    txt
+    csv
+    pmng
+    jpg
+    jpeg
+    gif
+    tif
+    tiff
+    zip
 ----------------------------------------------
