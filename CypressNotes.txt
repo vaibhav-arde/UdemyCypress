@@ -15,3 +15,9 @@ Upload to Github:
 git remote add origin https://github.com/vaibhav-arde/UdemyCypress.git
 git push -u origin master
 
+==============================================
+Simple code with Cypress
+cypress/integration/testApp/va.01login.js
+
+what is implicit and explicit asserssions?
+==============================================
