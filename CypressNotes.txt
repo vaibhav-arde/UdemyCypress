@@ -36,7 +36,7 @@ Clear()
 Check()
 Select()
 ---------------------------------------------
-7. Advance Cypress commands
+7. Advance Cypress commands (cypress/integration/testApp/va.07handleTable.js)
 visit()
 get()
 wrap(later)
@@ -45,7 +45,7 @@ find() : Get the descendent DOM elements of a specific selector, more like query
 filter() : Get the DOM element that match a specific selector
 each
 ---------------------------------------------
-8. Working with Cypress Variables
+8. Working with Cypress Variables (cypress/integration/testApp/va.08variables.js)
 
 In Cypress all the code line accumulate in a queue and all together its a gigantic queue.
 To define variables need to use .then()
@@ -53,6 +53,12 @@ variables are not accessible outside .then()
 Need to use alias to store variables.
 
 implicit and explicit assertions?
-
-
+---------------------------------------------
+9. Understanding Alias (cypress/integration/testApp/va.09alias.js)
+Alias are very special construct in Cypress which has many different applications something like
+1. Accessing variables outside of then(), hooks ect
+2. Working with UI elements
+3. Working with cy.fixtures()- DDT (Data Driven Testing), to read files
+4. Working with Routes for XHR and API testing
+---------------------------------------------
 
