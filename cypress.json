@@ -1,1 +1,5 @@
-{}
+{
+    "video" : true,
+    "screenshotFolder" : "cypress/videos",
+    "baseUrl" : "http://eaapp.somee.com"
+}

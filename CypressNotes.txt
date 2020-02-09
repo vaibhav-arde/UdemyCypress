@@ -84,7 +84,7 @@ before
 afterEach
 after
 ----------------------------------------------
-14.Data Driven Testing: (cypress/integration/testApp/va.14ddt.js)
+14.Data Driven Testing: (cypress/integration/testApp/va.14ddt.js, cypress/fixtures/testData.json)
 Fixture() and ReadFile()
 Fixture and ReadFile are two different methods available in Cypress to read or work with external files.
 They do have similar behaviour with minor differences but they work very well in reading the files of many types
@@ -103,4 +103,15 @@ Cypress reads these file types, but uf you specify just the file name without ex
     tif
     tiff
     zip
+----------------------------------------------
+15. Custom commands in Cypress:
+Cypress comes with its own API for creating custom commands and overwriting existing commands. The build in Cypress commands use the very same API that's defined below.
+A great place to define or overwrite commands in your cypress/support/commands.js file, since it is loaded before any test files are evaluated via an import statement in cypress/plugins/index.js
+Cypress.Commands.add(name, callbackFn)
+Cypress.Commands.add(name, options, callbackFn)
+Cypress.Commands.overwrite(name, callbackFn)
+Cypress.Commands.overwrite(name, options, callbackFn)
+
+Login is defined in cypress/support/commands.js
+and used in cypress/integration/testApp/va.15customCommands.js
 ----------------------------------------------
